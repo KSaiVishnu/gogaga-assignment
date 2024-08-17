@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://images.pexels.com/photos/640781/pexels-photo-640781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+.company-logo {
+    height: 85px;
+    width: 100px;
+}
+
+.icon {
+    height: 20px;
+    margin-left: 7px;
+    font-size: 1.5rem;
+}
+
+.profile {
+    border: 1px solid #ccc;
+    border-radius: 33px;
+    padding: 1px;
+    margin-left: 15px;
+}
+
+.container1 {
+    padding: 30px;
+}
+
+.main-container {
+    margin: 30px 0px 20px 20px;
+}
+
+.main-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragraph {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    background-color: white;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.button-container {
+    margin: 15px 0px 0px 20px;
+}
+
+.button-package {
+    background-color: black;
+    border-width: 0px;
+    color: white;
+    border-radius: 12px;
+    height: 45px;
+    width: 100px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-tours {
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 12px;
+    height: 45px;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px 30px 20px;
+}
+
+.card1 {
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    color: gray;
+    margin: 20px 10px 0px 0px;
+    padding: 10px;
+    width: 23%;
+}
+
+.input-input {
+    border-width: 0px;
+    width: 100%;
+    height: 35px;
+}
+
+.input-date {
+    border-width: 0px;
+    background-color: transparent;
+}
+
+.card2 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    color: gray;
+    margin: 20px 0px 0px 15px;
+    padding: 10px;
+    width: 35%;
+}
+
+.card3 {
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    color: gray;
+    margin: 20px 0px 0px 15px;
+    padding: 10px;
+    width: 23%;
+}
+
+.select {
+    border-width: 0px;
+    background-color: transparent;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    margin: 20px 0px 0px 15px;
+    padding: 10px;
+    width: 8%;
+}
+
+.rating-container {
+    display: flex;
+    margin: 20px 0px 0px 30px;
+}
+
+.rating-para {
+    align-self: center;
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+.button-search {
+    color: white;
+    background-color: black;
+    border-width: 0px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.rating {
+    background-color: black;
+    color: white;
+    border-width: 0px;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 0px 0px 0px 10px;
+    width: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rating-white {
+    background-color: lightgray;
+    color: black;
+    border-width: 0px;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 0px 0px 0px 10px;
+    width: 50px;
+}
+
+.check-out-container {
+    margin-left: auto;
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .card1 {
+        width: 19%;
+    }
+
+    .card2 {
+        width: 42%;
+        margin: 20px 0px 0px 5px;
+    }
+
+    .card3 {
+        width: 26%;
+    }
+
+    .card4 {
+        width: 5%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .company-logo {
+        height: 105px;
+        width: 130px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .card1 {
+        width: 30%;
+    }
+
+    .card2 {
+        width: 60%;
+    }
+
+    .card3 {
+        width: 40%;
+        margin-left: 0px;
+    }
+
+    .card4 {
+        width: 12%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .card1 {
+        width: 90%;
+    }
+
+    .card2 {
+        width: 90%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .card3 {
+        width: 70%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .card4 {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .card1 {
+        width: 97%;
+    }
+
+    .card2 {
+        width: 97%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .card3 {
+        width: 100%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .card4 {
+        display: none;
+        width: 20%;
+    }
+
+    .rating-white {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width:520px) {
+    .container1 {
+        padding: 20px;
+    }
+
+    .moon {
+        display: none;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .check-in-container {
+        display: flex;
+    }
+
+    .check-in-para {
+        padding-top: 5px;
+        margin-right: 21px;
+    }
+
+    .check-out-para {
+        padding-top: 5px;
+        margin-right: 10px;
+    }
+
+
+    .check-out-container {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .card2 {
+        width: 100%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .input-date {
+        border: 1px solid #ccc;
+        margin-left: 1px;
+        padding: 0px 10px 0px 10px;
+    }
+}

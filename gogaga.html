@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="gogaga.css">
+</head>
+
+<body>
+    <div class="bg-container">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="/">
+                    <img class="company-logo" src="https://res.cloudinary.com/dtqmufptd/image/upload/v1723824038/download-removebg-preview_ci9jay.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Packages<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/tours">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/help">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/membership">Membership<img class="icon" src="https://res.cloudinary.com/dtqmufptd/image/upload/v1723824857/Screenshot_2024-08-16_214002-removebg-preview_cb34ik.png" /></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/giftcards">Giftcards <img class="icon" src="https://res.cloudinary.com/dtqmufptd/image/upload/v1723824857/Screenshot_2024-08-16_214320-removebg-preview_e4gzwy.png" /></a>
+                        </li>
+                        <li class="nav-item dropdown mr-5 profile d-none d-lg-block">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="navbar-toggler-icon"></span>
+                                <img class="icon" src="https://res.cloudinary.com/dtqmufptd/image/upload/v1723825828/Screenshot_2024-08-16_215846-removebg-preview_1_pnxfyv.png" />
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Profile</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container1 pb-5">
+            <div class="main-container">
+                <h1 class="main-heading">Discover Your Next Adventure</h1>
+                <p class="paragraph">unlock your path to adventure, start your journey of discovery - where every destination awaits your exploration </p>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="mb-4 button-container">
+                        <button class="button-package">Packages</button>
+                        <button class="button-tours">Tours</button>
+                    </div>
+                    <div class="mt-4 card-container">
+                        <div class="card1">
+                            <p>Destination</p>
+                            <b>
+                                <input class="input-input" placeholder="Enter the city" />
+                            </b>
+                        </div>
+                        <div class="card2">
+                            <div class="check-in-container">
+                                <p class="check-in-para mt-2">Check-in</p>
+                                <input value="2024-08-17" type="date" class="input-date pl-1" />
+                            </div>
+                            <div class="m-auto moon">
+                                <i class="fas fa-moon ml-2 mt-3"></i>
+                                <p>1 Night</p>
+                            </div>
+                            <div class="check-out-container">
+                                <p class="check-out-para mt-2">Check-out</p>
+                                <input value="yyyy-mm-dd" type="date" class="input-date pl-1" />
+                            </div>
+                        </div>
+                        <div class="card3">
+                            <p>Guests and Rooms</p>
+                            <select class="select">
+                                <option>2 adults, 0 children, 1 room</option>
+                                <option>2 adults, 2 children, 1 room</option>
+                                <option>6 adults, 2 children, 3 room</option>
+                                <option>4 adults, 2 children, 2 room</option>
+                            </select>
+                        </div>
+                        <div class="card4">
+                            <button class="button-search"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="rating-container">
+                        <p class="rating-para">Star Rating</p>
+                        <div>
+                            <button class="rating">3 <i class="far fa-star"></i></button>
+                            <button class="rating">4 <i class="far fa-star"></i></button>
+                            <button class="rating-white">5 <i class="far fa-star"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
